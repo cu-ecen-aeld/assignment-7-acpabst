@@ -3,7 +3,7 @@
 module="scull"
 device="scull"
 mode="664"
-path="/lib/modues/5.15.150-yocto-standard/"
+path="/lib/modules/5.15.150-yocto-standard/"
 
 # Group: since distributions do it differently, look for wheel or use staff
 if grep -q '^staff:' /etc/group; then
